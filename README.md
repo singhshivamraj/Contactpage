@@ -1,12 +1,43 @@
-# React + Vite
+# 📇 Contact Manager App (React + Firebase)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern contact management app built using **React**, **Vite**, **Firebase**, and **Tailwind CSS**. This project helps you manage your personal or professional contact list with real-time updates, smooth UI, and validation — all packed into a clean and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search Contacts** by name or email
+- ➕ **Add new contact** using a popup modal
+- 📝 **Edit contact** with pre-filled values in the same modal
+- ❌ **Delete contact** instantly
+- 📦 **Data stored in Firebase**
+- ✅ **Form validation** with Yup
+- 📢 **Toast notifications** for actions (add/update/delete)
+- 💻 **Responsive design** (Mobile + Desktop)
+- 💅 **Tailwind CSS** for modern UI styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Firebase](https://firebase.google.com/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/)
+- [Yup](https://github.com/jquense/yup)
+
+---
+
+## 📸 Screenshots
+
+> Add some screenshots of your UI here (homepage, add contact popup, toast messages, etc.)
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/contact-manager-react.git
+   cd contact-manager-react
