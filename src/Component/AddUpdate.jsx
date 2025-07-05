@@ -1,7 +1,7 @@
 
 import Modle from './Modle'
 import { ErrorMessage, Field, Form, Formik } from "formik";
-import {db} from '../config/firebase'
+import {db} from '../Config/Firebase'
 import { addDoc, collection, doc, updateDoc } from "firebase/firestore";
 import { toast } from "react-toastify";
 import * as Yup from "yup";

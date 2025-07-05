@@ -2,7 +2,7 @@ import React from 'react'
 import {RiEditCircleLine} from 'react-icons/ri'
 import {IoMdTrash} from 'react-icons/io'
 import {HiOutlineUserCircle} from 'react-icons/hi'
-import {db} from '../config/firebase'
+import {db} from '../Config/Firebase'
 import { deleteDoc, doc } from "firebase/firestore";
 import AddUpdate from './AddUpdate'
 import Hoock from '../Hoock/Hoock'

@@ -5,7 +5,7 @@ import Navbar from './Component/Navbar'
 import {FiSearch} from 'react-icons/fi'
 import {TbCirclePlusFilled} from 'react-icons/tb'
 import {collection, doc, getDoc, getDocs, onSnapshot } from 'firebase/firestore'
-import { db } from "./config/firebase";
+import { db } from "./Config/Firebase";
 import {HiOutlineUserCircle} from 'react-icons/hi'
 import {RiEditCircleLine} from 'react-icons/ri'
 import {IoMdTrash} from 'react-icons/io'
